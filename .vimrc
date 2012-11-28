@@ -20,6 +20,14 @@ set hidden
 set showmatch
 set autowrite
 
+
+set undodir=~/.vim/tmp/undo// " undo files
+set backupdir=~/.vim/tmp/backup// " backups
+set directory=~/.vim/tmp/swap// " swap files
+set backup " enable backups
+set undofile " enable undo files
+
+
 " Better command-line completion
 set wildmenu
 
